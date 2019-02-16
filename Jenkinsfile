@@ -5,7 +5,7 @@ pipeline{
    stages {
        stage('Build') {
 	      steps {
-		      sh 'mvn validate clean compile'
+		      sh 'Maven 3.6 validate clean compile'
 			} 
         }
 		
